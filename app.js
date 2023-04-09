@@ -36,7 +36,22 @@ console.log(taxForJunior)
 employee.prototype.talk()
 
 employee.prototype.render=function(){
+    console.log(employees)
 
 }
 let employee1= new employee("1000","Ghazi Samer","Administration","Senior")
-console.log(employees)
+let employee2= new employee("1001","Lana Ali","Finance","Senior")
+let employee3= new employee("1002","Tamara Ayoub","Marketing","Senior")
+let employee4= new employee("1003","Safi Walid","Administration","Mid-Senior")
+let employee5= new employee("1004","Omar Zaid","Development","Senior")
+let employee6= new employee("1005","Rana Saleh	","Development","Junior")
+let employee7= new employee("1006","Hadi Ahmad","Finance","	Mid-Senior")
+
+
+
+
+
+
+for( let i =0; i< employees.length;i++){
+    employees[i].render();
+}

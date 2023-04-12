@@ -1,0 +1,29 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color:pink;
+    justify-content: space-around;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    /* justify-content: space-between; */
+}
+#oneCard{
+display: flex;
+flex-direction: column;
+
+/* flex-wrap: wrap; */
+/* justify-content: space-between; */
+
+}
+footer{
+    background-color: lightsalmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer.div{
+   
+}
